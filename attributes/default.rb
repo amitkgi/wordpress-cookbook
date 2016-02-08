@@ -25,13 +25,13 @@
 # General settings
 default['wordpress']['version'] = 'latest'
 
-default['wordpress']['db']['root_password'] = 'my_root_password'
+default['wordpress']['db']['root_password'] = '12345678'
 default['wordpress']['db']['instance_name'] = 'default'
-default['wordpress']['db']['name'] = "wordpressdb"
-default['wordpress']['db']['user'] = "wordpressuser"
+default['wordpress']['db']['name'] = "wordpress"
+default['wordpress']['db']['user'] = "admin"
 default['wordpress']['db']['pass'] = nil
 default['wordpress']['db']['prefix'] = 'wp_'
-default['wordpress']['db']['host'] = 'localhost'
+default['wordpress']['db']['host'] = 'wordpress.ch9dq1f2vzga.us-east-1.rds.amazonaws.com:3306'
 default['wordpress']['db']['port'] = '3306'  # Must be a string
 default['wordpress']['db']['charset'] = 'utf8'
 default['wordpress']['db']['collate'] = ''
